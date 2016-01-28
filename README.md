@@ -13,3 +13,8 @@ How to 3D print your very own Astro Pi flight case
 - 4 x M4 30 mm bolt
 - 4 x M4 hex nut
 
+Buttons
+
+Manufacturer: APEM
+Order Code: 1086639
+Manufacturer Part No 104350003 [link](http://uk.farnell.com/apem/104350003/switch-spdt-3a-24vdc-tht/dp/1086639)
