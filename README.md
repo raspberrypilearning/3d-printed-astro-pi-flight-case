@@ -15,6 +15,6 @@ How to 3D print your very own Astro Pi flight case
 
 Buttons
 
-Manufacturer: APEM
-Order Code: 1086639
-Manufacturer Part No 104350003 [link](http://uk.farnell.com/apem/104350003/switch-spdt-3a-24vdc-tht/dp/1086639)
+- Manufacturer: APEM
+- Manufacturer Part No 104350003
+- [link](http://uk.farnell.com/apem/104350003/switch-spdt-3a-24vdc-tht/dp/1086639)
