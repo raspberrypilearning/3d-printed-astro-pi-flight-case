@@ -10,6 +10,6 @@ How to 3D print your very own Astro Pi flight case
 - 4 x M2.5 M-F stand off - 8 mm
 - 4 x M2.5 nut or washer
 - 4 x M2.5 cross head screw - 6 mm
-- 4 x M4 40 mm bolt
+- 4 x M4 30 mm bolt
 - 4 x M4 hex nut
 
