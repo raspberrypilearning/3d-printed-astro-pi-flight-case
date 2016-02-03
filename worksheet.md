@@ -72,13 +72,13 @@ You may choose to not print this part because it's not essential to the rest of 
 
 ### Base
 
-The base scaffolding should come away as easily as with the heatsink however you'll also need to remove some material that was used to support the corner bolt enclosures and around the aperture for the Micro SD card. A small pair of pliers is ideal for this.
+The base scaffolding should come away easily, as with the heatsink, however you'll also need to remove some material that was used to support the corner bolt enclosures and around the aperture for the Micro SD card. A small pair of pliers is ideal for this.
 
 ![](images/scaff_base.png)
 
 ### Middle
 
-Again the scaffolding should come away as easily and there will be some material around the corner bolt enclosures that you'll need to remove.
+Again the scaffolding should come away easily and there will be some material around the corner bolt enclosures that you'll need to remove.
 
 ![](images/scaff_middle.png)
 
@@ -88,7 +88,7 @@ The bottom layer of scaffolding on the lid should come away easily as before.
 
 ![](images/scaff_lid1.png)
 
-However there are a few sunken holes on the underside that must also be cleared of material. These are these to prevent the lid from impacting the Astro Pi hardware when installed into the case. You'll need a scalpel or craft knife to dig into it.
+However there are a few sunken holes on the underside that must also be cleared of material. These are there to prevent the lid from impacting the Raspberry Pi hardware when installed into the case. You'll need a scalpel or craft knife to dig into it.
 
 ![](images/scaff_lid2.png)
 
@@ -99,6 +99,12 @@ Once you've managed to lift some of it use a pair of small pliers to remove the 
 When you're done it should look like this:
 
 ![](images/scaff_lid4.png)
+
+## Do a fit check
+
+Before proceeding put all the pieces together to check that they fit together correctly. The lipped edge between the base and middle pieces is of most concern to you here. The heat sink and lid just need to line up.
+
+![](images/fit_check.png)
 
 How to 3D print your very own Astro Pi flight case
 
