@@ -27,9 +27,25 @@ Most notably the case has been sliced into four parts. This has been done to min
 
 Because there are so many different types of 3D printer we cannot possibly provide instructions for them all, so we can only provide rough guidance here and you'll need to figure out the rest on your own.
 
-To get a nice finish we recommend you print on a high detail setting, usually this is a number specified in [microns](https://en.wikipedia.org/wiki/Micrometre) in the 3D printer software. The lower this number is the more precise the model will come out. Please also be aware that precise prints take longer and, for these models, each piece can take up to **four** hours to complete.
+To get a nice finish we recommend you print on a high detail setting, usually this is a number specified in [microns](https://en.wikipedia.org/wiki/Micrometre) in the 3D printer software. The lower this number is the more precise the model will come out. Please also be aware that precise prints take longer and, for these models, each piece can take up to **four** hours to complete. Make sure you have enough filament.
 
+The STL files should have the models like this by default but please make sure you print in the orientations shown below in order to minimise scaffolding and rafting. 
 
+### Heat Sink
+
+![](images/raw_print_heatsink.png)
+
+### Base
+
+![](images/raw_print_base.png)
+
+### Middle
+
+![](images/raw_print_middle.png)
+
+### Lid
+
+![](images/raw_print_lid.png)
 
 How to 3D print your very own Astro Pi flight case
 
