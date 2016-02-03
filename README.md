@@ -1,20 +1,25 @@
-# 3d-printed-astro-pi-flight-case
-How to 3D print your very own Astro Pi flight case
+# 3D Printed Astro Pi Flight Case
 
-- 1 x Raspberry Pi
-- 1 x Camera Module
-- 1 x Sense HAT
-- 1 x 2x20 pin PCB header, 15 mm pins
-- 4 x M2 cross head screw - 6 mm
-- 4 x M2.5 M-F stand off - 11 mm
-- 4 x M2.5 M-F stand off - 8 mm
-- 4 x M2.5 nut or washer - 1.6 mm depth
-- 4 x M2.5 cross head screw - 6 mm
-- 4 x M4 30 mm bolt
-- 4 x M4 hex nut
+![](cover.png)
 
-Buttons
+The Astro Pi flight case is one of the most desired cases in the history of the Raspberry Pi. With this resource you will learn how to 3D print your own case and install the Astro Pi hardware inside it. You'll then have your very own Astro Pi flight unit identical in almost every way to the ones on the International Space Station right now.
 
-- Manufacturer: APEM
-- Manufacturer Part No 104350003
-- [link](http://uk.farnell.com/apem/104350003/switch-spdt-3a-24vdc-tht/dp/1086639)
+If you're participating in an Astro Pi competition this is a great way to prototype and ergonomically test your code in the same way as it would be used in space by the crew of the ISS.
+
+## Worksheet
+
+- [Worksheet](worksheet.md)
+
+## Licence
+
+Unless otherwise specified, everything in this repository is covered by the following licence:
+
+[![Creative Commons License](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
+
+***3D Printed Astro Pi Flight Case*** by the [Raspberry Pi Foundation](http://www.raspberrypi.org) is licenced under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+
+Based on a work at https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case
+
+
+
+
