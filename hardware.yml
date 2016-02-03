@@ -1,6 +1,6 @@
 - name: Raspberry Pi camera module
   img: camera
+- name: NoIR camera module (alternative)
+  img: camera-noir
 - name: Sense HAT
   img: sense-hat
-- name: 6 x Tactile button
-  img: tactile-push-button
