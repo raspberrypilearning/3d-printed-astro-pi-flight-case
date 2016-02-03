@@ -47,6 +47,36 @@ The STL files should have the models like this by default but please make sure y
 
 ![](images/raw_print_lid.png)
 
+## Remove the scaffolding
+
+In order to keep the model structurally sound while printing your 3D printer will create what's called scaffolding and rafting to prevent the hot filament from bending or sagging. Leave the print to cool before you try to remove it.
+
+### Heat Sink
+
+You should be able to remove the scaffolding on the heatsink using just yout hands, this part may bend slightly so don't be too rough while doing this.
+
+![](images/scaff_heatsink.png)
+
+You may choose to not print this part because it's not essential to the rest of the case and because it's made of plastic it *will not* work as a heatsink. We've included it anyway so that you can achieve the iconic look and feel of the Astro Pi flight case though.
+
+### Base
+
+The base scaffolding should come away as easily as with the heatsink however you'll also need to remove some material that was used to support the corner bolt enclosures and around the aperture for the Micro SD card. A small pair of pliers is ideal for this.
+
+![](images/scaff_base.png)
+
+### Middle
+
+![](images/scaff_middle.png)
+
+### Lid
+
+![](images/scaff_lid1.png)
+
+![](images/scaff_lid2.png)
+
+![](images/scaff_lid3.png)
+
 How to 3D print your very own Astro Pi flight case
 
 - 1 x Raspberry Pi
