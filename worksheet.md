@@ -23,6 +23,17 @@ The 3D files do not exactly match those used to make the aluminium flight cases 
 
 Most notably the case has been sliced into four parts. This has been done to minimise the amount of rafting and scaffolding that needs to be printed along with the model and also reduces the time you spend cleaning up the final prints.
 
+## Safety first
+
+**It is important that you observe the correct safety procedures specified in the safety data sheet for your specific 3D printer.**
+
+Potential hazards include:
+
+- Hot surfaces and thermoplastics (print head block and lamp)
+- Ultraviolet radiation (lamp)
+- High voltage (lamp connector, electric outlet)
+- Moving parts (printing assembly)
+
 ## Print each part
 
 Because there are so many different types of 3D printer we cannot possibly provide instructions for them all, so we can only provide rough guidance here and you'll need to figure out the rest on your own.
