@@ -60,7 +60,7 @@ The STL files should have the models like this by default but please make sure y
 
 ## Remove the scaffolding
 
-In order to keep the model structurally sound while printing your 3D printer will create what's called scaffolding and rafting to prevent the hot filament from bending or sagging. Leave the print to cool before you try to remove it.
+In order to keep the model structurally sound while printing your 3D printer will create what's called scaffolding and rafting to prevent the hot thermoplastics from bending or sagging. Leave the print to cool right down to room temperature before you touch it.
 
 ### Heat Sink
 
@@ -78,13 +78,21 @@ The base scaffolding should come away as easily as with the heatsink however you
 
 ### Middle
 
+Again the scaffolding should come away as easily and there will be some material around the corner bolt enclosures that you'll need to remove.
+
 ![](images/scaff_middle.png)
 
 ### Lid
 
+The bottom layer of scaffolding on the lid should come away easily as before.
+
 ![](images/scaff_lid1.png)
 
+However there are a few sunken holes on the underside that must also be cleared of material. These are these to prevent the lid from impacting the Astro Pi hardware when installed into the case. You'll need a scalpel or craft knife to dig into it.
+
 ![](images/scaff_lid2.png)
+
+Once you've managed to lift some of it use a pair of small pliers to remove the rest of the material. The areas marked with a red star below also need the same treatment.
 
 ![](images/scaff_lid3.png)
 
