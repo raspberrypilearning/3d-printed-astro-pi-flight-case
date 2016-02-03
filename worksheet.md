@@ -96,6 +96,10 @@ Once you've managed to lift some of it use a pair of small pliers to remove the 
 
 ![](images/scaff_lid3.png)
 
+When you're done it should look like this:
+
+![](images/scaff_lid4.png)
+
 How to 3D print your very own Astro Pi flight case
 
 - 1 x Raspberry Pi
