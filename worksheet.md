@@ -111,7 +111,7 @@ Again the scaffolding should come away easily and there will be some material ar
 
 ### Lid
 
-The bottom layer of scaffolding on the lid should come away easily as before.
+The bottom layer of scaffolding on the lid should come away easily again.
 
 ![](images/scaff_lid1.png)
 
@@ -119,7 +119,7 @@ However there are a few sunken holes on the underside that must also be cleared 
 
 ![](images/scaff_lid2.png)
 
-Once you've managed to lift some of it use a pair of small pliers to remove the rest of the material. The areas marked with a red star below also need the same treatment.
+Once you've managed to lift some of it use a pair of small pliers to remove the rest of the material. The areas marked with a red star below need the same treatment.
 
 ![](images/scaff_lid3.png)
 
@@ -132,4 +132,22 @@ When you're done it should look like this:
 Before proceeding put all the pieces together to check that they fit together correctly. The lipped edge between the base and middle pieces is of most concern to you here. The heat sink and lid just need to line up.
 
 ![](images/fit_check.png)
+
+Don't worry about any imperfections or residue from the scaffolding at this stage, you can tidy this up later with sand paper.
+
+## Epoxy adhesive
+
+Use some high performance epoxy adhesive to glue the heat sink to the base, and then the lid to the middle. You may wish to leave the this step until after you've installed the hardware in the base. It may help mitigate any alignment issues later on.
+
+![](images/epoxy_adhesive.png)
+
+## Fold the camera ribbon
+
+Getting the camera into the case can be a little tricky but this is how we did it for the flight units. Firstly disconnect the ribbon cable from the camera, the two tabs lift up to release the cable in the same way as they do on the Raspberry Pi itself. Then fold the ribbon similar to how it is in the pictures below:
+
+![](images/ribbon1.png)
+
+You don't need to get this perfect for it to work, but try to get it as close as possible. The kapton tape is also optional, any kind of tape will work fine if you want to prevent the ribbon from unfurling.
+
+![](images/ribbon2.png)
 
