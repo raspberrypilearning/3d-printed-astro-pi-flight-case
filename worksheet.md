@@ -143,11 +143,17 @@ Use some high performance epoxy adhesive to glue the heat sink to the base, and 
 
 ## Fold the camera ribbon
 
-Getting the camera into the case can be a little tricky but this is how we did it for the flight units. Firstly disconnect the ribbon cable from the camera, the two tabs lift up to release the cable in the same way as they do on the Raspberry Pi itself. Then fold the ribbon similar to how it is in the pictures below:
+Getting the camera into the case can be a little tricky but this is how we did it for the flight units. Firstly disconnect the ribbon cable from the camera, the two tabs lift up on either side to release the cable in the same way as they do on the Raspberry Pi itself. Then fold the ribbon similar to how it's shown below. These folds allow the camera cable to come up the side of the Raspberry Pi with enough flex to insert into the CSI camera port (see further down).
 
 ![](images/ribbon1.png)
 
 You don't need to get this perfect for it to work, but try to get it as close as possible. The kapton tape is also optional, any kind of tape will work fine if you want to prevent the ribbon from unfurling.
 
 ![](images/ribbon2.png)
+
+
+
+## Install the camera
+
+![](images/install_camera.png)
 
