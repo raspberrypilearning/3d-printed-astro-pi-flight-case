@@ -17,14 +17,14 @@ If you're planning to build a full Astro Pi flight unit, check that you have all
 - 1 x Sense HAT
 - 1 x 2x20 pin PCB header, 15 mm long pins (gold pins not necessary, tin is fine)
 - 4 x M2 cross head screw - 4 mm
-- 4 x M2.5 Male to Female stand off - 11 mm*
-- 4 x M2.5 Male to Female stand off - 8 mm*
-- 4 x M2.5 nut or washer - 1.6 mm depth*
+- 4 x M2.5 male to female stand off - 11 mm†
+- 4 x M2.5 male to female stand off - 8 mm†
+- 4 x M2.5 nut or washer - 1.6 mm depth†
 - 4 x M2.5 cross head screw - 6 mm
 - 4 x M4 30 mm bolt
 - 4 x M4 hex nut
 
-* = These are used to hold the Sense HAT at the correct height, you could achieve this in other ways if you wish. For example with single 20.6 mm stand offs.
+† = These are used to hold the Sense HAT at the correct height, you could achieve this in other ways if you wish. For example with single 20.6 mm stand offs.
 
 Buttons
 
