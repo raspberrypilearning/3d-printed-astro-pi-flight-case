@@ -21,7 +21,7 @@ If you're planning to build a full Astro Pi flight unit, check that you have all
 - 4 x M2.5 male to female stand off - 8 mm†
 - 4 x M2.5 nut or washer - 1.6 mm depth†
 - 4 x M2.5 cross head screw - 6 mm
-- 4 x M4 30 mm bolt
+- 4 x M4 bolt - 30 mm
 - 4 x M4 hex nut
 
 † = These are used to hold the Sense HAT at the correct height, you could achieve this in other ways if you wish. For example with single 20.6 mm stand offs. Perhaps even 3D print your own?
