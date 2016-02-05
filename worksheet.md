@@ -45,6 +45,8 @@ You're also going to need the following tools:
 - Sand paper
 - Epoxy adhesive
 - Kapton tape (or similar)
+- Soldering iron
+- Solder
 
 ## Get access to a 3D printer
 
@@ -258,3 +260,10 @@ The APEM buttons have three poles numbered 1 to 3 (note that pole 3 is in the mi
 1. GPIO pin
 1. Do not connect
 1. GND
+
+We recommend that you solder directly onto the button contacts however you could also use crimped wire terminals that friction fit onto the contacts (we felt these were not reliable enough for flight).
+
+The picture below is of one of the flight units that went into space. On the right you can see the base of the RTC board with the connector pins for the buttons. If you look at the button contacts on the left you'll see we used only one black ground wire that went from button to button, it's fine to do this.
+
+![](images/flight_unit_wiring.jpg)
+
