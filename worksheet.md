@@ -230,7 +230,7 @@ When you're done it should look like this. Do the same for the remaining buttons
 
 ## Wire up the buttons
 
-Without the RTC board in the middle you won't have a convenient way to wire the buttons to the GPIO pins of the Raspberry Pi. Because there are so many ways this can be solved you'll need to decide yourself. Possible ways include making your own middle board, soldering directly onto the vertical pins of the PCB header or soldering onto the base of the GPIO pins on the underside of the Raspberry Pi.
+Without the RTC board in the middle you won't have a convenient way to wire the buttons to the GPIO pins of the Raspberry Pi. Because there are so many ways this can be solved you should decide yourself. Possible ways include making your own middle board, soldering directly onto the vertical pins of the PCB header or soldering onto the base of the GPIO pins on the underside of the Raspberry Pi.
 
 To match the flight unit you should wire the buttons to the last six GPIO pins at the bottom of the header.
 
@@ -253,6 +253,8 @@ Here are the GPIO pin assignments:
 
 The APEM buttons have three poles numbered 1 to 3 (note that pole 3 is in the middle):
 
-1. GPIO pull up
+![](images/apem_wiring.jpg)
+
+1. GPIO pin
 1. Do not connect
 1. GND
