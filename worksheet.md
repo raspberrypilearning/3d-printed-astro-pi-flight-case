@@ -327,12 +327,25 @@ When joining the lid to the middle you have an opportunity to locate the lid so 
 
 ![](images/install_fit_check.png)
 
-Your Astro Pi is almost complete, the last thing to do is install the joystick hat. The flight units use a track point cap from a Lenovo ThinkPad laptop (part no 73P2698). There are plenty of cheaper alternatives available online that will work just as well (try eBay).
+Your Astro Pi is almost complete, the last thing to do is install the joystick hat. The flight units use a track point cap from a Lenovo ThinkPad laptop (part no 73P2698). There are plenty of cheaper alternatives available online that will work just as well.
 
-To mount the track point cap onto the Sense HAT joystick you should chop up an empty ink tube from a BIC biro (yep, this is what's in space). Cut off a short length of the tube and with some gentle force the tube will fit over the stump of the joystick. It will also pop off again if too much force is used which protects the quite cheap joystick component inside (Tim did this during his training).
+To mount the track point cap onto the Sense HAT joystick you should chop up an empty ink tube from a BIC biro (yep, this is what's in space). Cut off a short length of the tube and with some gentle force the tube will fit over the stump of the joystick. It will also pop off again if too much force is used which protects the cheap joystick component inside.
 
-Fill the cavity on the base of the track point cap with some hot melt adhesive from a glue gun and then insert the BIC tube into the soft adhesive.  Allow this to cool and your joystick is ready.
+Fill the cavity on the base of the track point cap with some hot melt adhesive from a glue gun and then insert the BIC tube into the soft adhesive.  Allow this to cool and your joystick is ready for use.
 
 ![](images/track_point_cap.png)
 
 ## What next
+
+We've deliberately not shown a really polished gorgeous case because we're hoping you will go this extra mile and blow our socks off. Please show us your cases by tweeting pictures of them to `@astro_pi` and `@raspberry_pi`
+
+Here are some further ideas:
+
+- Use metallic grey spray paint
+- Use sand paper to create the matt finish that the bead-blasted aluminium flight cases have
+- Engrave decals into the case
+- Use different colour filament for each part
+
+The STL files are released under the Creative Commons attribution [license](http://creativecommons.org/licenses/by-sa/4.0/) so you are welcome to modify them. Please note that GitHub has a great [STL viewer](https://github.com/blog/1465-stl-file-viewing) that also has a [3D file diff](https://github.com/blog/1633-3d-file-diffs) which could be useful for tracking your changes.
+
+But by far greatest benefit of owning an Astro Pi flight unit is the ability to prototype and test code that could be run on the International Space Station. Head over to the [Astro Pi website](https://astro-pi.org/) now to get involved!
