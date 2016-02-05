@@ -155,7 +155,7 @@ You don't need to get this perfect for it to work, but try to get it as close as
 
 Reconnect the `Cam` end of the ribbon cable to the camera module. Make sure that the tin connectors are facing the front and the blue tab is on the back.
 
-Before proceeding line up the camera module with the support pillar pilot holes and have a look through the aperture in the base to check the alignment of the lens. The lens of the camera module is actually stuck in position with adhesive at the factory and therefore its alignment can vary slightly from camera to camera. If you find you've got an alignment issue you should be able to manipulate the lens block between finger and thumb before you install it into the case permanently.
+Before proceeding line up the camera module with the support pillar pilot holes and have a look through the aperture in the base to check the alignment of the lens. The lens block of the camera module is actually stuck in position with adhesive at the factory and therefore its alignment can vary slightly from camera to camera. If you find you've got an alignment issue you should be able to manipulate the lens block between finger and thumb before you install it into the case permanently.
 
 When you're happy the camera module should be installed into the case as shown below. With light finger pressure the M2 cross head screws will cut their own thread in the support pillar pilot holes. After just a few turns you'll probably need a small screw driver to continue.
 
@@ -165,10 +165,14 @@ Stop turning as soon as the head of the screw touches the camera module, if you 
 
 ## Install the Raspberry Pi
 
-
+Firstly ensure there's no residual scaffolding material around the SD card slot or LED holes that might prevent the Raspberry Pi from lining up with the mounting pillars. Once you're happy line up the Raspberry Pi and do a fit check. Verify that it doesn't impact the Camera Module below it. Don't insert the camera ribbon cable just yet as this will make the next job awkward.
 
 ![](images/install_pi1.png)
 
+Next take the M2.5 - 11 mm stand offs and with some light finger pressure they will cut their own thread in the support pillar pilot holes. After a few turns you'll need to use a small pair of pliers to continue turning them. Be careful while you do this and, again, stop turning as soon as the stand off touches the Raspberry Pi to avoid spliting the pillars horizontally along the grain of the print.
+
 ![](images/install_pi2.png)
+
+Now you can insert the camera ribbon cable into the CSI port of the Raspberry Pi. Try to make sure the tin connectors are all level to ensure a good connection.
 
 ![](images/install_pi3.png)
