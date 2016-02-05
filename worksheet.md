@@ -238,7 +238,7 @@ To match the flight unit you should wire the buttons to the last six GPIO pins a
 
 ![](images/buttons_GPIO.png)
 
-Note the orientation of the pin diagram is with the Ethernet and USB ports facing downwards, and the row of pins on the right hand side of the Pi. They need to be wired in a **pull up** configuration in order to match the flight unit. Fortunately, the Raspberry Pi has all that circuitry built in. So you can get away with just using single jumper wires here.
+Note the orientation of the pin diagram is with the Ethernet and USB ports facing downwards, and the row of pins on the right hand side of the Pi. They need to be wired in a **pull up** configuration in order to match the flight unit. Fortunately, the Raspberry Pi has all that circuitry built in. So you can get away with just using a single wire between button and GPIO pin.
 
 There is also a device tree overlay that causes these buttons to type `u`, `d`, `l`, `r`, `a` and `b` when you press them. This allows you to easily consume button and joystick events at the same time in your code.
 
