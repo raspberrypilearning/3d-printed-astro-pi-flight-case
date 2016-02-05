@@ -267,3 +267,55 @@ The picture below is of one of the flight units that went into space. On the rig
 
 ![](images/flight_unit_wiring.jpg)
 
+## Test the buttons
+
+Once you have all the buttons wired up, boot up your Astro Pi with a monitor, keyboard and mouse connected. We need to download some files and change a few configuration settings. Firstly download the device tree overlay that maps the push buttons to corresponding keyboard keys. Open a terminal and enter these commands:
+
+```bash
+cd /boot/overlays
+sudo wget https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/master/dtb/astropi-keys.dtb
+ls
+```
+Check that the file `astropi-keys.dtb` is now showing in the list of files. Next we need to configure `config.txt` to load this overlay:
+```bash
+sudo nano /boot/config.txt
+```
+Go to the bottom of the file and enter the line below:
+```bash
+dtoverlay=astropi-keys
+```
+Press `Ctrl - O`, then `Enter` to save followed by `Ctrl - X` to quit.
+
+Now reboot the Astro Pi.
+```bash
+sudo reboot
+```
+Now let's download and run a Python test program to check everything is working. The test code uses [Pygame](http://pygame.org/wiki/tutorials) so please do this on the Astro Pis own screen and not via remote access. Open a terminal and enter these commands:
+```bash
+cd ~
+wget https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/master/test_code/pygame_test.py
+chmod +x pygame_test.py
+./pygame_test.py
+```
+Waggle the joystick and press all the push buttons. If everything is working the joystick should give a direction indication and the buttons will show the corresponding letter.
+
+The flight unit uses hardware pull ups on the GPIO pins, however this test code enables the Raspberry Pis own internal pull up resistors so your button wiring can be nice and simple. Therefore if you didn't use hardware pull ups then you will also need to set the internal pull ups in any Astro Pi code that you write. The block of code below will do this for you, just make sure you have this at the top of each program.
+```python
+import RPi.GPIO as GPIO
+
+UP = 26
+DOWN = 13
+LEFT = 20
+RIGHT = 19
+A = 16
+B = 21
+
+GPIO.setmode(GPIO.BCM)
+
+for pin in [UP, DOWN, LEFT, RIGHT, A, B]:
+    GPIO.setup(pin, GPIO.IN, GPIO.PUD_UP)
+```
+
+## Assemble the case
+
+![](images/install_fit_check.png)
