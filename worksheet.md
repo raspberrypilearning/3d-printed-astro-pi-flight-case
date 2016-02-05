@@ -276,7 +276,9 @@ cd /boot/overlays
 sudo wget https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/master/dtb/astropi-keys.dtb
 ls
 ```
-Check that the file `astropi-keys.dtb` is now showing in the list of files. Next we need to configure `config.txt` to load this overlay:
+Check that the file `astropi-keys.dtb` is now showing in the list of files now showing.
+
+Next we need to configure `config.txt` to load this overlay:
 ```bash
 sudo nano /boot/config.txt
 ```
@@ -297,9 +299,9 @@ wget https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/
 chmod +x pygame_test.py
 ./pygame_test.py
 ```
-Waggle the joystick and press all the push buttons. If everything is working the joystick should give a direction indication and the buttons will show the corresponding letter.
+Waggle the joystick and press all the push buttons. If everything is working the joystick should give a direction indication and the buttons will show the corresponding letter on the LED matrix.
 
-The flight unit uses hardware pull ups on the GPIO pins, however this test code enables the Raspberry Pis own internal pull up resistors so your button wiring can be nice and simple. Therefore if you didn't use hardware pull ups then you will also need to set the internal pull ups in any Astro Pi code that you write. The block of code below will do this for you, just make sure you have this at the top of each program.
+The flight unit uses hardware pull ups on the GPIO pins, however this test code enables the Raspberry Pis own internal pull up resistors so your button wiring can be nice and simple. So you will also need to set the internal pull ups in any Astro Pi code that you write. The block of code below will do this for you, just make sure you have this at the top of each program.
 ```python
 import RPi.GPIO as GPIO
 
