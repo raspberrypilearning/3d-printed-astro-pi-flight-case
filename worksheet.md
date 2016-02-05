@@ -180,7 +180,7 @@ Firstly ensure there's no residual scaffolding material around the SD card slot 
 
 ![](images/install_pi1.png)
 
-Next take the M2.5 - 11 mm stand offs and with some light finger pressure they will cut their own thread in the support pillar pilot holes. After a few turns you'll need to use a small pair of pliers to continue turning them. Be careful while you do this and, again, stop turning as soon as the stand off touches the Raspberry Pi to avoid spliting the pillars horizontally along the grain of the print.
+Next take the M2.5 - 11 mm stand offs and with some light finger pressure they will cut their own thread in the support pillar pilot holes. After a few turns you'll need to use a small pair of pliers to continue turning them. It's possible to get these to go in at a slight angle which can lead to alignment issues of the Sense HAT later on, so do your best to make sure these go into the support pillars as straight as possible. Be careful while you do this and, again, stop turning as soon as the stand off touches the Raspberry Pi to avoid spliting the pillars horizontally along the grain of the print.
 
 ![](images/install_pi2.png)
 
@@ -204,6 +204,25 @@ The Sense HAT can then be inserted onto the GPIO pins, note that the long pins o
 
 ![](images/install_sense2.png)
 
-Finally use the M2.5 cross head screws to secure the Sense HAT to the stand offs below. Then do a fit check with the middle piece of the case to ensure there are no alignment issues.
+Finally use the M2.5 cross head screws to secure the Sense HAT to the stand offs below.
 
 ![](images/install_sense3.png)
+
+## Install the push buttons
+
+The guidance here assumes you're using the APEM buttons that we used in the flight unit. These have a thread which goes through the lid from below along with a friction washer, to stop it rotating, and then a collar to secure the button from the top. The red line below indicates where the lid should be.
+
+![](images/buttons1.png)
+
+Insert the thread along with the friction washer from the underside of the lid.
+
+![](images/buttons2.png)
+
+Place the collar over the threading and tighten securely.
+
+![](images/buttons3.png)
+
+When you're done it should look like this. Do the same for the remaining buttons.
+
+![](images/buttons4.png)
+
