@@ -276,7 +276,7 @@ cd /boot/overlays
 sudo wget https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/master/dtb/astropi-keys.dtb
 ls
 ```
-Check that the file `astropi-keys.dtb` is now showing in the list of files now showing.
+Check that the file `astropi-keys.dtb` is now showing in the list of files.
 
 Next we need to configure `config.txt` to load this overlay:
 ```bash
@@ -299,7 +299,7 @@ wget https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/
 chmod +x pygame_test.py
 ./pygame_test.py
 ```
-Waggle the joystick and press all the push buttons. If everything is working the joystick should give a direction indication and the buttons will show the corresponding letter on the LED matrix.
+Waggle the joystick and press all the push buttons. If everything is working the joystick should give a direction indication and the buttons will show the corresponding letter on the LED matrix. Press `Escape` to exit.
 
 The flight unit uses hardware pull ups on the GPIO pins, however this test code enables the Raspberry Pis own internal pull up resistors so your button wiring can be nice and simple. So you will also need to set the internal pull ups in any Astro Pi code that you write. The block of code below will do this for you, just make sure you have this at the top of each program.
 ```python
@@ -320,4 +320,14 @@ for pin in [UP, DOWN, LEFT, RIGHT, A, B]:
 
 ## Assemble the case
 
+Once you're happy that the internals of the case are complete you can proceed to the final assembly stage. If you haven't done so already now is the time to use the epoxy adhesive to join the heat sink to the base and the lid to the middle.
+
+When joining the lid to the middle you have an opportunity to locate the lid so as to mitigate any alignment issues with the LED matrix and joystick that may have occurred from the stand offs not being quite straight. After the case is assembled insert an M4 bolt into each corner bolt enclosure and tighten up the hex nuts on the other side.
+
 ![](images/install_fit_check.png)
+
+
+
+![](images/track_point_cap.png)
+
+## What next
