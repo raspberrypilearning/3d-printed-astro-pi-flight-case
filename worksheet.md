@@ -169,7 +169,7 @@ You don't need to get this perfect for it to work, but try to get it as close as
 
 ## Install the camera
 
-Reconnect the `Cam` end of the ribbon cable to the camera module. Make sure that the pin connectors are facing the front and the blue tab is on the back.
+Reconnect the `Cam` end of the ribbon cable to the camera module. Make sure that the tin connectors are facing the front and the blue tab is on the back.
 
 Before proceeding, line up the camera module with the support pillar pilot holes and have a look through the aperture in the base to check the alignment of the lens. The lens block of the camera module is actually glued in position at the factory and therefore its alignment can vary slightly from camera to camera. If you find you've got an alignment issue, you should be able to manipulate the lens block between finger and thumb before you install it into the case permanently.
 
@@ -189,7 +189,7 @@ Next take the M2.5 - 11 mm stand offs; with some light finger pressure they will
 
 ![](images/install_pi2.png)
 
-Now you can insert the camera ribbon cable into the CSI port of the Raspberry Pi. Try to make sure the pin connectors are all level to ensure a good connection.
+Now you can insert the camera ribbon cable into the CSI port of the Raspberry Pi. Try to make sure the tin connectors are all level to ensure a good connection.
 
 ![](images/install_pi3.png)
 
