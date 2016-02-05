@@ -12,19 +12,21 @@ If you're participating in an Astro Pi competition this is a great way to protot
 
 If you're planning to build a full Astro Pi flight unit, check that you have all the parts required before you start:
 
-- 1 x Raspberry Pi (B+ or 2B)
-- 1 x Camera Module (normal or Pi NoIR version)
-- 1 x Sense HAT
-- 1 x 2x20 pin PCB header- 15 mm long pins, 2.54 mm pitch spacing (gold isn't necessary, tin in fine)
-- 4 x M2 cross head screw - 4 mm
-- 4 x M2.5 male to female stand off - 11 mm†
-- 4 x M2.5 male to female stand off - 8 mm†
-- 4 x M2.5 nut or washer - 1.6 mm depth†
-- 4 x M2.5 cross head screw - 6 mm
-- 4 x M4 bolt - 30 mm
-- 4 x M4 hex nut
+Part|Quantity|Info|Purpose
+---|---|---|---
+Raspberry Pi|1|B+ or 2B|Main computer
+Camera Module|1|Normal or Pi NoIR|Main camera
+Sense HAT|1||Main sensors
+2x20 pin PCB header|1|15 mm long pins, 2.54 mm pitch spacing|Goes onto the GPIO pins to hold the Sense HAT at the correct height
+M2 cross head screw|4|4 mm|Fixes camera module into base
+M2.5 male to female stand off|4|11 mm|Holds the Sense HAT at the correct height †
+M2.5 male to female stand off|4|8 mm|Holds the Sense HAT at the correct height †
+M2.5 nut or washer|4|1.6 mm depth|Holds the Sense HAT at the correct height †
+M2.5 cross head screw|4|6 mm|Fixes the top of the Sense HAT to the stand offs below
+M4 bolt|4|30 mm|Used in the corner bolt enclosures to hold the case together
+M4 hex nut|4||Used in the corner bolt enclosures to hold the case together
 
-† = These are used to hold the Sense HAT at the correct height, you could achieve this in other ways if you wish. For example with single 20.6 mm stand offs. Perhaps even 3D print your own?
+† = You could achieve this height in other ways if you wish. For example with single 20.6 mm stand offs. Perhaps even 3D print your own?
 
 ![](images/apem.jpg)
 
@@ -32,6 +34,15 @@ If you want to buy the exact buttons used in the Astro Pi flight unit the detail
 
 - Manufacturer: APEM
 - Manufacturer Part No: 104350003
+
+You're also going to need the following tools:
+
+- Small cross head screwdriver
+- Small pair of pliers
+- Craft knife or scalpel
+- Sand paper
+- Epoxy adhesive
+- Kapton tape (or similar)
 
 ## Get access to a 3D printer
 
@@ -176,3 +187,6 @@ Next take the M2.5 - 11 mm stand offs and with some light finger pressure they w
 Now you can insert the camera ribbon cable into the CSI port of the Raspberry Pi. Try to make sure the tin connectors are all level to ensure a good connection.
 
 ![](images/install_pi3.png)
+
+## Install the Sense HAT
+
