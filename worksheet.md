@@ -202,4 +202,4 @@ Take an 8 mm M2.5 stand off and put the hex nut or washer onto its thread before
 
 The Sense HAT can then be inserted onto the GPIO pins, note that the long pins of the PCB header should not protrude through the top of the Sense HAT. If they do the height is not correct.
 
-![](images/install_sense3.png)
+![](images/install_sense2.png)
