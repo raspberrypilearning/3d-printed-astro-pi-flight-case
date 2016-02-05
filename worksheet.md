@@ -25,8 +25,10 @@ M2.5 nut or washer|4|1.6 mm depth|Holds the Sense HAT at the correct height †
 M2.5 cross head screw|4|6 mm|Fixes the top of the Sense HAT to the stand offs below
 M4 bolt|4|30 mm|Used in the corner bolt enclosures to hold the case together
 M4 hex nut|4||Used in the corner bolt enclosures to hold the case together
+Tactile push buttons|6|10 mm threaded bushing |Function buttons
+Laptop trackpoint cap|1|Flight units use Lenovo part 73P2698|Goes on the Sense HAT joystick
 
-† = You could achieve this height in other ways if you wish. For example with single 20.6 mm stand offs. Perhaps even 3D print your own?
+† = You could achieve this height in other ways if you wish. For example with 20.6 mm stand offs. Perhaps even 3D print your own?
 
 ![](images/apem.jpg)
 
@@ -226,3 +228,31 @@ When you're done it should look like this. Do the same for the remaining buttons
 
 ![](images/buttons4.png)
 
+## Wire up the buttons
+
+Without the RTC board in the middle you won't have a convenient way to wire the buttons to the GPIO pins of the Raspberry Pi. Because there are so many ways this can be solved you'll need to decide yourself. Possible ways include making your own middle board, soldering directly onto the vertical pins of the PCB header or soldering onto the base of the GPIO pins on the underside of the Raspberry Pi.
+
+To match the flight unit you should wire the buttons to the last six GPIO pins at the bottom of the header.
+
+![](images/buttons_GPIO.png)
+
+Note the orientation of the pin diagram is with the Ethernet and USB ports facing downwards, and the row of pins on the right hand side of the Pi. They need to be wired in a **pull up** configuration in order to match the flight unit. Fortunately, the Raspberry Pi has all that circuitry built in. So you can get away with just using single jumper wires here.
+
+There is also a device tree overlay that causes these buttons to type `u`, `d`, `l`, `r`, `a` and `b` when you press them. This allows you to easily consume button and joystick events at the same time in your code.
+
+Here are the GPIO pin assignments:
+
+- Top quad
+    - UP: GPIO 26, pin 37
+    - DOWN: GPIO 13, pin 33
+    - LEFT: GPIO 20, pin 38
+    - RIGHT: GPIO 19, pin 35
+- Bottom pair
+    - A (left): GPIO 16, pin 36
+    - B (right): GPIO: 21, pin 40
+
+The APEM buttons have three poles numbered 1 to 3 (note that pole 3 is in the middle):
+
+1. GPIO pull up
+1. Do not connect
+1. GND
