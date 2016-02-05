@@ -190,3 +190,16 @@ Now you can insert the camera ribbon cable into the CSI port of the Raspberry Pi
 
 ## Install the Sense HAT
 
+This is where we're going to deviate from what is inside the Astro Pi flight unit. The flight units have another circuit board in between the Raspberry Pi and Sense HAT which holds a real time clock, oscillator crystal and backup battery. This RTC board also has some pins that the six push buttons connect to. Unfortunately this is not available to the public.
+
+Our goal was to keep the 3D printed flight case as *faithful* to the original as possible so the decision was taken to *not* alter it to accommodate the absence of this board. It may be possible for us to release the Gerber files for it in the future so that people can make their own.
+
+So we're going to use a hex nut or washer of the same depth as the RTC board to compensate for its absence. The RTC board is 1.6 mm thick so we need a nut or washer of the same thickness. There are many ways you could achieve this, for example with two washers of 0.8 mm thickness.
+
+Take an 8 mm M2.5 stand off and put the hex nut or washer onto its thread before screwing it into the hole of the 11 mm stand off as shown below. Do the same for the remaining three stand offs.
+
+![](images/install_sense1.png)
+
+The Sense HAT can then be inserted onto the GPIO pins, note that the long pins of the PCB header should not protrude through the top of the Sense HAT. If they do the height is not correct.
+
+![](images/install_sense3.png)
