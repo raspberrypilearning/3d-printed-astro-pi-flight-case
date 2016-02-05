@@ -107,15 +107,15 @@ In order to keep the model structurally sound while printing your 3D printer wil
 
 ### Heat Sink
 
-You should be able to remove the scaffolding on the heatsink using just yout hands, this part may bend slightly so don't be too rough while doing this.
+You should be able to remove the scaffolding on the heat sink using just yout hands, this part may bend slightly so don't be too rough while doing this.
 
 ![](images/scaff_heatsink.png)
 
-You may choose to not print this part because it's not essential to the rest of the case and because it's made of plastic it *will not* work as a heatsink. We've included it anyway so that you can achieve the iconic look and feel of the Astro Pi flight case though.
+You may choose to not print this part because it's not essential to the rest of the case and because it's made of plastic it *will not* work as a heat sink. We've included it anyway so that you can achieve the iconic look and feel of the Astro Pi flight case though.
 
 ### Base
 
-The base scaffolding should come away easily, as with the heatsink, however you'll also need to remove some material that was used to support the corner bolt enclosures and around the aperture for the Micro SD card. A small pair of pliers is ideal for this.
+The base scaffolding should come away easily, as with the heat sink, however you'll also need to remove some material that was used to support the corner bolt enclosures and around the aperture for the Micro SD card. A small pair of pliers is ideal for this.
 
 ![](images/scaff_base.png)
 
@@ -274,7 +274,7 @@ Once you have all the buttons wired up, boot up your Astro Pi with a monitor, ke
 
 ```bash
 cd /boot/overlays
-sudo wget https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/master/dtb/astropi-keys.dtb
+sudo wget https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/master/dtb/astropi-keys.dtb --no-check-certificate
 ls
 ```
 Check that the file `astropi-keys.dtb` is now showing in the list of files.
@@ -296,7 +296,7 @@ sudo reboot
 Now let's download and run a Python test program to check everything is working. The test code uses [Pygame](http://pygame.org/wiki/tutorials) so please do this on the Astro Pis own screen and not via remote access. Open a terminal and enter these commands:
 ```bash
 cd ~
-wget https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/master/test_code/pygame_test.py
+wget https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/master/test_code/pygame_test.py --no-check-certificate
 chmod +x pygame_test.py
 ./pygame_test.py
 ```
@@ -346,6 +346,6 @@ Here are some further ideas:
 - Engrave decals into the case
 - Use different colour filament for each part
 
-The STL files are released under the Creative Commons attribution [license](http://creativecommons.org/licenses/by-sa/4.0/) so you are welcome to modify them. Please note that GitHub has a great [STL viewer](https://github.com/blog/1465-stl-file-viewing) that also has a [3D file diff](https://github.com/blog/1633-3d-file-diffs) which could be useful for tracking your changes.
+The STL files are released under the Creative Commons attribution [license](http://creativecommons.org/licenses/by-sa/4.0/) so you are welcome to modify them. Please note that GitHub has a great [STL viewer](https://github.com/blog/1465-stl-file-viewing) and also has a [3D file diff](https://github.com/blog/1633-3d-file-diffs) which could be useful for tracking your changes.
 
 But by far greatest benefit of owning an Astro Pi flight unit is the ability to prototype and test code that could be run on the International Space Station. Head over to the [Astro Pi website](https://astro-pi.org/) now to get involved!
