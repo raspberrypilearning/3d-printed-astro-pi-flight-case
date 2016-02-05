@@ -194,12 +194,16 @@ This is where we're going to deviate from what is inside the Astro Pi flight uni
 
 Our goal was to keep the 3D printed flight case as *faithful* to the original as possible so the decision was taken to *not* alter it to accommodate the absence of this board. It may be possible for us to release the Gerber files for it in the future so that people can make their own.
 
-So we're going to use a hex nut or washer of the same depth as the RTC board to compensate for its absence. The RTC board is 1.6 mm thick so we need a nut or washer of the same thickness. There are many ways you could achieve this, for example with two washers of 0.8 mm thickness.
+So we're going to use a hex nut or washer of the same depth as the RTC board to compensate for its absence. The RTC board is 1.6 mm thick so we need a nut or washer of the same thickness. There are many ways you could achieve this, for example with two washers of 0.8 mm thickness. You could 3D print one?
 
 Take an 8 mm M2.5 stand off and put the hex nut or washer onto its thread before screwing it into the hole of the 11 mm stand off as shown below. Do the same for the remaining three stand offs.
 
 ![](images/install_sense1.png)
 
-The Sense HAT can then be inserted onto the GPIO pins, note that the long pins of the PCB header should not protrude through the top of the Sense HAT. If they do the height is not correct.
+The Sense HAT can then be inserted onto the GPIO pins, note that the long pins of the PCB header should not protrude through the top of the Sense HAT. If they do then the height is not correct.
 
 ![](images/install_sense2.png)
+
+Finally use the M2.5 cross head screws to secure the Sense HAT to the stand offs below. Then do a fit check with the middle piece of the case to ensure there are no alignment issues.
+
+![](images/install_sense3.png)
