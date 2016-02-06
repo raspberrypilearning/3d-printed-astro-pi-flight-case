@@ -26,6 +26,7 @@ M2.5 cross head screw|4|6 mm|Fixes the top of the Sense HAT to the stand offs be
 M4 bolt|4|30 mm|Used in the corner bolt enclosures to hold the case together
 M4 hex nut|4||Used in the corner bolt enclosures to hold the case together
 Tactile push buttons|6|10 mm threaded bushing |Function buttons
+Jumper wire|7|Any type|To cut up for push button wiring
 Laptop trackpoint cap|1|Flight units use Lenovo part 73P2698|Goes on the Sense HAT joystick
 
 † = You could achieve this height in other ways if you wish, for example with 20.6 mm stand offs. Perhaps you could even 3D print your own!
@@ -44,10 +45,12 @@ You're also going to need the following tools:
 - Craft knife or scalpel
 - Sand paper
 - Kapton tape (or similar)
+- Wire strippers
 - Soldering iron
 - Solder
 - Epoxy adhesive
-- Glue gun with hot melt adhesive
+- Glue gun
+- Hot melt adhesive for glue gun
 
 ## Get access to a 3D printer
 
@@ -262,7 +265,7 @@ The APEM buttons have three poles numbered 1 to 3 (note that pole 3 is in the mi
 1. Do not connect
 1. GND
 
-We recommend that you solder directly onto the button contacts; however, you could also use crimped wire terminals that friction fit onto the contacts (we felt these were not reliable enough for flight).
+We recommend that you strip back some jumper wire and solder directly onto the button contacts; however, you could also use crimped wire terminals that friction fit onto the contacts (we felt these were not reliable enough for flight).
 
 The picture below is of one of the flight units that went into space. On the right you can see the base of the RTC board with the connector pins for the buttons. If you look at the button contacts on the left, you'll see we used only one black ground wire that went from button to button - it's fine to do this.
 
