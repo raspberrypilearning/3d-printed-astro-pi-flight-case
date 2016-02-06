@@ -26,7 +26,7 @@ M2.5 cross head screw|4|6 mm|Fixes the top of the Sense HAT to the stand offs be
 M4 bolt|4|30 mm|Used in the corner bolt enclosures to hold the case together
 M4 hex nut|4||Used in the corner bolt enclosures to hold the case together
 Tactile push buttons|6|10 mm threaded bushing |Function buttons
-Jumper wire|7|Any type|To cut up for push button wiring
+Jumper wire|7+|Any type|To cut up for push button wiring
 Laptop trackpoint cap|1|Flight units use Lenovo part 73P2698|Goes on the Sense HAT joystick
 
 † = You could achieve this height in other ways if you wish, for example with 20.6 mm stand offs. Perhaps you could even 3D print your own!
