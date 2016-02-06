@@ -26,7 +26,7 @@ pygame.display.set_mode((640, 480))
 
 sense = SenseHat()
 sense.clear()  # Blank the LED matrix
-sense.set_rotation(270)
+sense.set_rotation(270)  # Flight orientation
 
 # 0, 0 = Top left
 # 7, 7 = Bottom right
@@ -42,6 +42,7 @@ def set_pixels(pixels, col):
         sense.set_pixel(p[0], p[1], col[0], col[1], col[2])
 
 
+# Joystick is turned 90 degrees clockwise for flight orientation
 def handle_event(event, colour):
     if event.key == pygame.K_DOWN:
         set_pixels(LEFT_PIXELS, colour)
