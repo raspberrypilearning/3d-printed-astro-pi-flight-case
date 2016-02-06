@@ -26,6 +26,7 @@ pygame.display.set_mode((640, 480))
 
 sense = SenseHat()
 sense.clear()  # Blank the LED matrix
+sense.set_rotation(270)
 
 # 0, 0 = Top left
 # 7, 7 = Bottom right
@@ -43,13 +44,13 @@ def set_pixels(pixels, col):
 
 def handle_event(event, colour):
     if event.key == pygame.K_DOWN:
-        set_pixels(DOWN_PIXELS, colour)
-    elif event.key == pygame.K_UP:
-        set_pixels(UP_PIXELS, colour)
-    elif event.key == pygame.K_LEFT:
         set_pixels(LEFT_PIXELS, colour)
-    elif event.key == pygame.K_RIGHT:
+    elif event.key == pygame.K_UP:
         set_pixels(RIGHT_PIXELS, colour)
+    elif event.key == pygame.K_LEFT:
+        set_pixels(UP_PIXELS, colour)
+    elif event.key == pygame.K_RIGHT:
+        set_pixels(DOWN_PIXELS, colour)
     elif event.key == pygame.K_RETURN:
         set_pixels(CENTRE_PIXELS, colour)
     elif event.key == pygame.K_u:
