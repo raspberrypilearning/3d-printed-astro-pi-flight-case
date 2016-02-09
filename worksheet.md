@@ -17,7 +17,7 @@ Part|Quantity|Info|Purpose
 Raspberry Pi|1|B+ or 2B|Main computer
 Camera module|1|Normal or Pi NoIR|Main camera
 Sense HAT|1||Main sensors
-2x20 pin PCB header|1|15 mm long pins, 2.54 mm pitch spacing|Goes onto the GPIO pins to hold the Sense HAT at the correct height
+2x20 pin PCB header (GPIO connector)|1|15 mm long pins, 2.54 mm pitch spacing|Goes onto the GPIO pins to hold the Sense HAT at the correct height
 M2 cross head screw|4|4 mm|Fixes camera module into base
 M2.5 male-to-female stand off|4|11 mm|Holds the Sense HAT at the correct height †
 M2.5 male-to-female stand off|4|8 mm|Holds the Sense HAT at the correct height †
@@ -208,7 +208,7 @@ Take an 8 mm M2.5 stand off and put the hex nut or washer onto its thread before
 
 ![](images/install_sense1.png)
 
-The Sense HAT can then be inserted onto the GPIO pins. Note that the long pins of the PCB header should not protrude through the top of the Sense HAT. If they do, then the height is not correct.
+Remove the GPIO connector that comes with the Sense HAT, wiggle it from side to side and it will come off without too much force. The Sense HAT can then be inserted onto the GPIO connector with the *long* pins (see checklist above). Note that these pins should not protrude through the top of the Sense HAT. If they do, then the height is not correct.
 
 ![](images/install_sense2.png)
 
