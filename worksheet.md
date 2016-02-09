@@ -222,7 +222,7 @@ The guidance here assumes you're using the APEM buttons that we used in the flig
 
 ![](images/buttons1.png)
 
-Insert the thread along with the nut and friction washer from the underside of the lid and then adjust the nut to the approximate position shown below to minimise the thread showing on top.
+Insert the thread along with the nut and friction washer from the underside of the lid and then adjust the nut to the approximate position shown below. This will minimise the thread showing on top.
 
 ![](images/buttons2.png)
 
