@@ -218,15 +218,15 @@ Finally, use the M2.5 cross head screws to secure the Sense HAT to the stand off
 
 ## Install the push buttons
 
-The guidance here assumes you're using the APEM buttons that we used in the flight unit. These have a thread which goes through the lid from below, along with a friction washer to stop it rotating, and then a collar to secure the button from the top. The red line below indicates where the lid should be.
+The guidance here assumes you're using the APEM buttons that we used in the flight unit. These have a thread which goes through the lid from below, along with a friction washer to stop it rotating, a nut to adjust the thread depth (red star below) and then a collar to secure the button from the top. The red line below indicates where the lid should be.
 
 ![](images/buttons1.png)
 
-Insert the thread along with the friction washer from the underside of the lid.
+Insert the thread along with the nut and friction washer from the underside of the lid and then adjust the nut to the approximate position shown below to minimise the thread showing on top.
 
 ![](images/buttons2.png)
 
-Place the collar over the threading and tighten securely.
+Place the collar over the threading and tighten securely. If too much thread is showing adjust the nut on the underside again.
 
 ![](images/buttons3.png)
 
