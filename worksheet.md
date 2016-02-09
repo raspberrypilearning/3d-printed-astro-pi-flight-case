@@ -162,4 +162,4 @@ Use some high-performance epoxy adhesive to glue the heat sink to the base, and 
 
 ## Continue to install the hardware
 
-[Worksheet 2](worksheet2.md)
+- [Worksheet 2](worksheet2.md)
