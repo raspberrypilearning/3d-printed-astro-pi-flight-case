@@ -9,6 +9,7 @@ If you're participating in an Astro Pi competition, this is a great way to proto
 ## Worksheet
 
 - [Worksheet](worksheet.md)
+- [Worksheet 2](worksheet2.md)
 
 ## Licence
 
