@@ -1,5 +1,7 @@
 # 3D printed Astro Pi flight case
 
+- [Back to Worksheet 1](worksheet.md)
+
 When you're happy with the 3D printed parts you can proceed with installing the hardware.
 
 ## Fold the camera ribbon
