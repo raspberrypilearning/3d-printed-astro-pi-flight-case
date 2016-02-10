@@ -1,6 +1,6 @@
 # 3D printed Astro Pi flight case
 
-![](https://raw.githubusercontent.com/raspberrypilearning/3d-printed-astro-pi-flight-case/master/cover.png)
+![](images/header.png)
 
 The Astro Pi flight case is one of the most desirable cases in the history of the Raspberry Pi. With this resource you will learn how to 3D print your own case and install the Astro Pi hardware inside it. You'll then have your very own Astro Pi flight unit, identical in almost every way to the ones on the International Space Station right now.
 
