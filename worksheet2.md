@@ -82,7 +82,7 @@ When you're done it should look like this. Do the same for the remaining buttons
 
 Without the RTC board in the middle, you won't have a convenient way to wire the buttons to the GPIO pins of the Raspberry Pi. Because there are so many ways this can be solved, you should decide how you will do this yourself.
 
-To match the flight unit, you should wire the buttons to the last six GPIO pins at the bottom of the header. **These pins do not need to be connected to the Sense HAT so it's fine if you want to cut or bend them as part of your solution.** Some people have also chopped off the last 4 rows of the GPIO connector and put jumper cables directly onto the Raspberry Pi pins.
+To match the flight unit, you should wire the buttons to the last six GPIO pins at the bottom of the header. **These pins do not need to be connected to the Sense HAT so it's fine if you want to cut or bend the GPIO connector pins as part of your solution.** Some people have also chopped off the last 4 rows of the GPIO connector and put the jumper cables directly onto the Raspberry Pi pins.
 
 ![](images/buttons_GPIO.png)
 
