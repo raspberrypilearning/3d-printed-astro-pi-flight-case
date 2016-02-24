@@ -18,7 +18,7 @@ You don't need to get this perfect for it to work, but try to get it as close as
 
 Reconnect the `Cam` end of the ribbon cable to the camera module. Make sure that the tin connectors are facing the front and the blue tab is on the back.
 
-Before proceeding, line up the camera module with the support pillar pilot holes and have a look through the aperture in the base to check the alignment of the lens. The lens block of the camera module is actually glued in position at the factory and therefore its alignment can vary slightly from camera to camera. If you find you've got an alignment issue, you should be able to manipulate the lens block between finger and thumb before you install it into the case permanently.
+Before proceeding, line up the camera module with the support pillar pilot holes and have a look through the aperture in the base to check the alignment of the lens. The lens block of the camera module is actually glued in position at the factory, and therefore its alignment can vary slightly from camera to camera. If you find you've got an alignment issue, you should be able to manipulate the lens block between finger and thumb before you install it into the case permanently.
 
 When you're happy, the camera module should be installed into the case as shown below. With light finger pressure, the M2 cross head screws will cut their own thread in the support pillar pilot holes. After just a few turns you'll probably need a small screwdriver to continue.
 
@@ -28,7 +28,7 @@ Stop turning as soon as the head of the screw touches the camera module; if you 
 
 ## Install the Raspberry Pi
 
-Firstly, ensure there's no residual scaffolding material around the SD card slot or LED holes that might prevent the Raspberry Pi from lining up with the mounting pillars. Once you're happy, line up the Raspberry Pi and do a fit check. Verify that it doesn't touch the Camera module below it. Don't insert the camera ribbon cable just yet as this will make the next job awkward.
+Firstly, ensure there's no residual scaffolding material around the SD card slot or LED holes that might prevent the Raspberry Pi from lining up with the mounting pillars. Once you're happy, line up the Raspberry Pi and do a fit check. Verify that it doesn't touch the camera module below it. Don't insert the camera ribbon cable just yet, as this will make the next job awkward.
 
 ![](images/install_pi1.png)
 
@@ -46,13 +46,13 @@ This is where we're going to deviate from what's inside the Astro Pi flight unit
 
 Our goal was to keep the 3D printed flight case as *faithful* to the original as possible, so the decision was taken to *not* alter it to accommodate the absence of this board. It may be possible for us to release the Gerber files for it in the future so that people can make their own.
 
-So we're going to use a hex nut or washer of the same depth as the RTC board to compensate for its absence. The RTC board is 1.6 mm thick so we need a nut or washer of the same thickness. There are many ways you could achieve this, for example with two washers of 0.8 mm thickness. Perhaps you could 3D print one.
+So we're going to use a hex nut or washer of the same depth as the RTC board to compensate for its absence. The RTC board is 1.6 mm thick, so we need a nut or washer of the same thickness. There are many ways you could achieve this, for example with two washers of 0.8 mm thickness. Perhaps you could 3D print one.
 
-Take an 8 mm M2.5 stand off and put the hex nut or washer onto its thread before screwing it into the hole of the 11 mm stand off as shown below. Do the same for the remaining three stand offs.
+Take an 8 mm M2.5 stand off and put the hex nut or washer onto its thread before screwing it into the hole of the 11 mm stand off, as shown below. Do the same for the remaining three stand offs.
 
 ![](images/install_sense1.png)
 
-Remove the GPIO connector that comes with the Sense HAT, wiggle it from side to side and it will come off without too much force. The Sense HAT can then be inserted onto the GPIO connector with the *long* pins (see checklist above). Note that these pins should not protrude through the top of the Sense HAT. If they do, then the height is not correct.
+Remove the GPIO connector that comes with the Sense HAT; wiggle it from side to side and it will come off without too much force. The Sense HAT can then be inserted onto the GPIO connector with the *long* pins (see checklist above). Note that these pins should not protrude through the top of the Sense HAT. If they do, then the height is not correct.
 
 ![](images/install_sense2.png)
 
@@ -66,15 +66,15 @@ The guidance here assumes you're using the APEM buttons that we used in the flig
 
 ![](images/buttons1.png)
 
-Insert the thread along with the nut and friction washer from the underside of the lid and then adjust the nut to the approximate position shown below. This will minimise the thread showing on top.
+Insert the thread along with the nut and friction washer from the underside of the lid, and then adjust the nut to the approximate position shown below. This will minimise the thread showing on top.
 
 ![](images/buttons2.png)
 
-Place the collar over the threading and tighten securely. If too much thread is showing adjust the nut on the underside again.
+Place the collar over the threading and tighten securely. If too much thread is showing, adjust the nut on the underside again.
 
 ![](images/buttons3.png)
 
-When you're done it should look like this. Do the same for the remaining buttons.
+When you're done, it should look like this. Do the same for the remaining buttons.
 
 ![](images/buttons4.png)
 
@@ -84,13 +84,13 @@ Without the RTC board in the middle, you won't have a convenient way to wire the
 
 ![](images/jumper_wiring.png)
 
-To match the flight unit, you should wire the buttons to the last eight GPIO pins at the bottom of the header. **These pins do not need to be connected to the Sense HAT so it's fine if you want to cut or bend them on the 2x20 pin PCB header (GPIO connector) as part of your solution.** You can also chop off the last 4 rows of the PCB header and put the jumper cables directly onto the Raspberry Pi pins (as shown above). Turn the rough edge to where the red star is and this will leave the good edge for the jumper wires to fit against.
+To match the flight unit, you should wire the buttons to the last eight GPIO pins at the bottom of the header. **These pins do not need to be connected to the Sense HAT, so it's fine if you want to cut or bend them on the 2x20 pin PCB header (GPIO connector) as part of your solution.** You can also chop off the last 4 rows of the PCB header and put the jumper cables directly onto the Raspberry Pi pins (as shown above). Turn the rough edge to where the red star is, and this will leave the good edge for the jumper wires to fit against.
 
 ![](images/buttons_GPIO.png)
 
 Note the orientation of the pin diagram is with the Ethernet and USB ports facing downwards, and the row of pins on the right-hand side of the Pi. They need to be wired in a **pull up** configuration in order to match the flight unit. Fortunately, the Raspberry Pi has all that circuitry built-in, so you can get away with just using a single wire between the button and GPIO pin.
 
-There is also a device tree overlay that causes these buttons to type `u`, `d`, `l`, `r`, `a` and `b` when you press them. This allows you to easily write code that uses button and joystick events at the same time.
+There is also a Device Tree overlay that causes these buttons to type `u`, `d`, `l`, `r`, `a` and `b` when you press them. This allows you to easily write code that uses button and joystick events at the same time.
 
 Here are the GPIO pin assignments:
 
@@ -113,13 +113,13 @@ The APEM buttons have three poles numbered 1 to 3 (note that pole 3 is in the mi
 
 We recommend that you strip back some jumper wire and solder directly onto the button contacts; however, you could also use crimped wire terminals that friction fit onto the contacts (we felt these were not reliable enough for flight).
 
-The picture below is of one of the flight units that went into space. On the right you can see the base of the RTC board with the connector pins for the buttons. If you look at the button contacts on the left, you'll see we used only one black ground wire that went from button to button - it's fine to do this.
+The picture below is of one of the flight units that went into space. On the right, you can see the base of the RTC board with the connector pins for the buttons. If you look at the button contacts on the left, you'll see we used only one black ground wire that went from button to button - it's fine to do this.
 
 ![](images/flight_unit_wiring.jpg)
 
 ## Test the buttons
 
-Once you have all the buttons wired up, start up your Astro Pi with a monitor, keyboard and mouse connected. We need to download some files and change a few configuration settings. Firstly, download the device tree overlay that maps the push buttons to corresponding keyboard keys. Open a terminal and enter these commands:
+Once you have all the buttons wired up, start up your Astro Pi with a monitor, keyboard and mouse connected. We need to download some files and change a few configuration settings. Firstly, download the Device Tree overlay that maps the push buttons to corresponding keyboard keys. Open a terminal and enter these commands:
 
 ```bash
 cd /boot/overlays
@@ -188,7 +188,7 @@ When joining the lid to the middle, you have an opportunity to locate the lid so
 
 Your Astro Pi is almost complete; the last thing to do is install the joystick hat. The flight units use a track point cap from a Lenovo ThinkPad laptop (part no 73P2698). There are plenty of cheaper alternatives available online that will work just as well.
 
-To mount the track point cap onto the Sense HAT joystick, you should chop up an empty ink tube from a BIC biro - yes, this is what's used in the space station unit. Cut off a short length of the tube and, with some gentle force, the tube will fit over the stump of the joystick. It will also pop off again if too much force is used, which protects the cheap joystick component inside.
+To mount the track point cap onto the Sense HAT joystick, you should chop up an empty ink tube from a BIC biro - yes, this is what's used in the Space Station unit. Cut off a short length of the tube and, with some gentle force, the tube will fit over the stump of the joystick. It will also pop off again if too much force is used, which protects the cheap joystick component inside.
 
 Fill the cavity on the base of the track point cap with some hot melt adhesive from a glue gun, and then insert the BIC tube into the soft adhesive. Allow this to cool, and then your joystick is ready for use.
 
@@ -196,7 +196,7 @@ Fill the cavity on the base of the track point cap with some hot melt adhesive f
 
 ## What next?
 
-We've deliberately not shown a really polished gorgeous case, because we're hoping you will go the extra mile and blow our socks off. Please show us your cases by tweeting pictures of them to `@astro_pi` and `@raspberry_pi`!
+We've deliberately not shown a really polished gorgeous case, because we're hoping you'll go the extra mile and blow our socks off. Please show us your cases by tweeting pictures of them to `@astro_pi` and `@raspberry_pi`!
 
 Here are some further ideas:
 
