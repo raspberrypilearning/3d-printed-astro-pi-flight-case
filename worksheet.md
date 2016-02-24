@@ -82,7 +82,7 @@ Potential hazards include:
 
 ## Print each part
 
-The 3D printer we used for the blue parts shown in all the pictures below were made using an [Up Plus 2](https://www.3dhubs.com/3d-printers/up-plus-2) printer. Because there are so many different types of 3D printer, we cannot possibly provide instructions for them all, so we can only provide rough guidance here and you'll need to figure out the rest on your own.
+The 3D printer we used for the blue parts shown below was an [Up Plus 2](https://www.3dhubs.com/3d-printers/up-plus-2) printer. Because there are so many different types of 3D printer, we cannot possibly provide instructions for them all, so we can only provide rough guidance here and you'll need to figure out the rest on your own.
 
 Here are some top tips though:
 
