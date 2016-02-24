@@ -88,7 +88,7 @@ Here are some top tips though:
 
 - Spend some time making sure your printer is properly calibrated and tested
 - [PLA](https://en.wikipedia.org/wiki/Polylactic_acid) is more reliable and nicer to print with than [ABS](https://en.wikipedia.org/wiki/Acrylonitrile_butadiene_styrene)
-- A [PrintInZ](http://www.printinz.com/) or [Buildtak](http://www.buildtak.eu/) plate provides a great surface to print on without any extra adhesive being required 
+- A [Zebra](http://www.printinz.com/zebra-plates/) or [Buildtak](http://www.buildtak.eu/) plate provides a great surface to print on without any extra adhesive being required 
 - If your printer has a Z probe sensor this will help compensate for the bed not being perfectly level, ensure it's working correctly if you have one
 
 To get a nice finish we recommend you print on a high detail setting; this is usually a number specified in [microns](https://en.wikipedia.org/wiki/Micrometre) in the 3D printer software. The lower this number is, the more precise the model will be. Please also be aware that precise prints take longer and, for these models, each piece can take up to **four** hours to complete. Make sure you have enough filament.
