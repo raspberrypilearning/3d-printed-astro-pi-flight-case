@@ -4,7 +4,7 @@
 
 The Astro Pi flight case is one of the most desirable cases in the history of the Raspberry Pi. With this resource you will learn how to 3D print your own case and install the Astro Pi hardware inside it. You'll then have your very own Astro Pi flight unit, identical in almost every way to the ones on the International Space Station right now.
 
-If you're participating in an Astro Pi competition, this is a great way to prototype and ergonomically test your code in the same way as it would be used by the crew of the ISS.
+If you're participating in an Astro Pi competition, this is a great way to prototype and efficiently test your code in the same way as it would be used by the crew of the ISS.
 
 ## Checklist
 
@@ -33,7 +33,7 @@ Laptop trackpoint cap|1|Flight units use Lenovo part 73P2698|Goes on the Sense H
 
 ![](images/apem.jpg)
 
-If you want to buy the exact buttons used in the Astro Pi flight unit the details are below. At about £9 each they're expensive, because they're designed to survive an enormous number of clicks before wearing out - necessary for a 7 year space mission. So you might want to consider looking for a cheaper one that would also fit. A button with a threaded bushing of 10 mm diameter will fit the holes in the lid.
+If you want to buy the exact buttons used in the Astro Pi flight unit, the details are below. At about £9 each they're expensive, because they're designed to survive an enormous number of clicks before wearing out - necessary for a 7-year space mission. So you might want to consider looking for a cheaper one that would also fit. A button with a threaded bushing of 10 mm diameter will fit the holes in the lid.
 
 - Manufacturer: APEM
 - Manufacturer Part No: 104350003
@@ -65,7 +65,7 @@ The 3D files are in [STL](https://en.wikipedia.org/wiki/STL_%28file_format%29) f
 - [Part 3](https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/master/STL/Astro_Pi_Enclosure_3D_PRINT_SECTION_3%20V1.STL) (middle)
 - [Part 4](https://github.com/raspberrypilearning/3d-printed-astro-pi-flight-case/raw/master/STL/Astro_Pi_Enclosure_3D_PRINT_SECTION_4%20V1.STL) (lid)
 
-The 3D files don't exactly match those used to make the aluminium flight cases on the space station. They have been modified to make them compatible with 3D printers, so that most people who attempt this will achieve success without difficulty.
+The 3D files don't exactly match those used to make the aluminium flight cases on the Space Station. They have been modified to make them compatible with 3D printers, so that most people who attempt this will achieve success without difficulty.
 
 Most notably, the case has been sliced into four parts. This has been done to minimise the amount of rafting and scaffolding that needs to be printed along with the model, and also reduces the time you spend cleaning up the final prints.
 
@@ -89,7 +89,7 @@ Here are some top tips though:
 - Spend some time making sure your printer is properly calibrated and tested
 - [PLA](https://en.wikipedia.org/wiki/Polylactic_acid) is more reliable and nicer to print with than [ABS](https://en.wikipedia.org/wiki/Acrylonitrile_butadiene_styrene)
 - A [Zebra](http://www.printinz.com/zebra-plates/) or [Buildtak](http://www.buildtak.eu/) plate provides a great surface to print on without any extra adhesive being required 
-- If your printer has a Z probe sensor this will help compensate for the bed not being perfectly level, ensure it's working correctly if you have one
+- If your printer has a Z probe sensor, this will help compensate for the bed not being perfectly level; ensure it's working correctly if you have one
 
 To get a nice finish we recommend you print on a high detail setting; this is usually a number specified in [microns](https://en.wikipedia.org/wiki/Micrometre) in the 3D printer software. The lower this number is, the more precise the model will be. Please also be aware that precise prints take longer and, for these models, each piece can take up to **four** hours to complete. Make sure you have enough filament.
 
@@ -117,7 +117,7 @@ In order to keep the model structurally sound while printing, your 3D printer wi
 
 ### Heat sink
 
-You should be able to remove the scaffolding on the heat sink using just your hands; this part may bend slightly so don't be too rough while doing this.
+You should be able to remove the scaffolding on the heat sink using just your hands; this part may bend slightly, so don't be too rough while doing this.
 
 ![](images/scaff_heatsink.png)
 
