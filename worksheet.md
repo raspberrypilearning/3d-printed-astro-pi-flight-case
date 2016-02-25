@@ -16,7 +16,7 @@ Part|Quantity|Info|Purpose
 ---|---|---|---
 Raspberry Pi|1|B+ or 2B|Main computer
 Camera module|1|Normal or Pi NoIR|Main camera
-Sense HAT|1||Main sensors
+Sense HAT|1|&nbsp;|Main sensors
 2x20 pin PCB header (GPIO connector)|1|15 mm long pins, 2.54 mm pitch spacing|Goes onto the GPIO pins to hold the Sense HAT at the correct height
 M2 cross head screw|4|4 mm|Fixes camera module into base
 M2.5 male-to-female stand off|4|11 mm|Holds the Sense HAT at the correct height †
@@ -24,7 +24,7 @@ M2.5 male-to-female stand off|4|8 mm|Holds the Sense HAT at the correct height �
 M2.5 nut or washer|4|1.6 mm depth|Holds the Sense HAT at the correct height †
 M2.5 cross head screw|4|6 mm|Fixes the top of the Sense HAT to the stand offs below
 M4 bolt|4|30 mm|Used in the corner bolt enclosures to hold the case together
-M4 hex nut|4||Used in the corner bolt enclosures to hold the case together
+M4 hex nut|4|&nbsp;|Used in the corner bolt enclosures to hold the case together
 Tactile push buttons|6|10 mm threaded bushing |Function buttons
 Jumper wire|7+|Any type|To cut up for push button wiring
 Laptop trackpoint cap|1|Flight units use Lenovo part 73P2698|Goes on the Sense HAT joystick
