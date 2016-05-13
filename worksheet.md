@@ -33,7 +33,7 @@ Laptop trackpoint cap|1|Flight units use Lenovo part 73P2698|Goes on the Sense H
 
 ![](images/apem.jpg)
 
-If you want to buy the exact buttons used in the Astro Pi flight unit, the details are below. At about £9 each they're expensive, because they're designed to survive an enormous number of clicks before wearing out - necessary for a 7-year space mission. So you might want to consider looking for a cheaper one that would also fit. A button with a threaded bushing of 10 mm diameter will fit the holes in the lid.
+If you want to buy the exact buttons used in the Astro Pi flight unit, the details are below. At about £9 each they're expensive, because they're designed to survive an enormous number of clicks before wearing out - necessary for a 7-year space mission. So you might want to consider looking for a cheaper one elsewhere.
 
 - Manufacturer: APEM
 - Manufacturer Part No: 104350003
