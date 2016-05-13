@@ -51,6 +51,7 @@ You're also going to need the following tools:
 - Epoxy adhesive
 - Glue gun
 - Hot melt adhesive for glue gun
+- Drill and drill bits (if not using the APEM buttons)
 
 ## Get access to a 3D printer
 
