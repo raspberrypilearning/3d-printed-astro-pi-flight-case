@@ -62,7 +62,9 @@ Finally, use the M2.5 cross head screws to secure the Sense HAT to the stand off
 
 ## Install the push buttons
 
-The guidance here assumes you're using the APEM buttons that we used in the flight unit. These have a thread which goes through the lid from below, along with a friction washer to stop it rotating, a nut to adjust the thread depth (red star below) and then a collar to secure the button from the top. The red line below indicates where the lid should be.
+If you are using the lid with the pilot holes then you will need to check the datasheet of your chosen button type to find the *threaded bushing diameter*. Once you know this you can select a drill bit with the this diameter, plus 1 mm for clearance, and proceed to drill out all six holes. We recommend using a vice or g clamp to hold the lid in place while you drill. You can then install the buttons as per their requirements.
+
+The guidance below assumes you're using the APEM buttons that we used in the flight unit. These have a thread which goes through the lid from below, along with a friction washer to stop it rotating, a nut to adjust the thread depth (red star below) and then a collar to secure the button from the top. The red line below indicates where the lid should be.
 
 ![](images/buttons1.png)
 
