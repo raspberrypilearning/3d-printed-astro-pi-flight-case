@@ -25,7 +25,7 @@ M2.5 nut or washer|4|1.6 mm depth|Holds the Sense HAT at the correct height †
 M2.5 cross head screw|4|6 mm|Fixes the top of the Sense HAT to the stand offs below
 M4 bolt|4|30 mm|Used in the corner bolt enclosures to hold the case together
 M4 hex nut|4|&nbsp;|Used in the corner bolt enclosures to hold the case together
-Tactile push buttons|6|10 mm threaded bushing |Function buttons
+Tactile push buttons|6|&nbsp;|Function buttons
 Jumper wire|7+|Any type|To cut up for push button wiring
 Laptop trackpoint cap|1|Flight units use Lenovo part 73P2698|Goes on the Sense HAT joystick
 
