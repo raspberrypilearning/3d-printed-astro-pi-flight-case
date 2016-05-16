@@ -42,7 +42,7 @@ Now you can insert the camera ribbon cable into the CSI port of the Raspberry Pi
 
 ## Install the Sense HAT
 
-This is where we're going to deviate from what's inside the Astro Pi flight unit. The flight units have another circuit board in between the Raspberry Pi and Sense HAT which holds a real-time clock, oscillator crystal and backup battery. This RTC board also has some pins that the six push buttons connect to. Unfortunately, this is not available to the public.
+This is where we're going to deviate from what's inside the Astro Pi flight unit. The flight units have another circuit board in between the Raspberry Pi and Sense HAT which holds a real-time clock, oscillator crystal, and backup battery. This RTC board also has some pins that the six push buttons connect to. Unfortunately, this is not available to the public.
 
 Our goal was to keep the 3D printed flight case as *faithful* to the original as possible, so the decision was taken to *not* alter it to accommodate the absence of this board. It may be possible for us to release the Gerber files for it in the future so that people can make their own.
 
@@ -62,9 +62,9 @@ Finally, use the M2.5 cross head screws to secure the Sense HAT to the stand off
 
 ## Install the push buttons
 
-If you are using the lid with the pilot holes then you will need to check the datasheet of your chosen button type to find the *threaded bushing diameter*. Once you know this you can select a drill bit with the this diameter, plus 1 mm for clearance, and proceed to drill out all six holes. We recommend using a vice or g clamp to hold the lid in place while you drill. You can then install the buttons as per their requirements.
+If you are using the lid with the pilot holes then you'll need to check the datasheet of your chosen button type to find the *threaded bushing diameter*. Once you know this you can select a drill bit with this diameter, plus 1 mm for clearance, and proceed to drill all six holes. We recommend using a vice or G clamp to hold the lid in place while you drill. You can then install the buttons as per their requirements.
 
-The guidance below assumes you're using the APEM buttons that we used in the flight unit. These have a thread which goes through the lid from below, along with a friction washer to stop it rotating, a nut to adjust the thread depth (red star below) and then a collar to secure the button from the top. The red line below indicates where the lid should be.
+The guidance below assumes you're using the APEM buttons that we used in the flight unit. These have a thread which goes through the lid from below, along with a friction washer to stop it rotating, a nut to adjust the thread depth (red star below), and then a collar to secure the button from the top. The red line below indicates where the lid should be.
 
 ![](images/buttons1.png)
 
@@ -86,7 +86,7 @@ Without the RTC board in the middle, you won't have a convenient way to wire the
 
 ![](images/jumper_wiring.png)
 
-To match the flight unit, you should wire the buttons to the last eight GPIO pins at the bottom of the header. **These pins do not need to be connected to the Sense HAT, so it's fine if you want to cut or bend them on the 2x20 pin PCB header (GPIO connector) as part of your solution.** You can also chop off the last 4 rows of the PCB header and put the jumper cables directly onto the Raspberry Pi pins (as shown above). Turn the rough edge to where the red star is, and this will leave the good edge for the jumper wires to fit against.
+To match the flight unit, you should wire the buttons to the last eight GPIO pins at the bottom of the header. **These pins don't need to be connected to the Sense HAT, so it's fine if you want to cut or bend them on the 2x20 pin PCB header (GPIO connector) as part of your solution.** You can also chop off the last 4 rows of the PCB header and put the jumper cables directly onto the Raspberry Pi pins (as shown above). Turn the rough edge to where the red star is, and this will leave the good edge for the jumper wires to fit against.
 
 ![](images/buttons_GPIO.png)
 
@@ -121,7 +121,7 @@ The picture below is of one of the flight units that went into space. On the rig
 
 ## Test the buttons
 
-Once you have all the buttons wired up, start up your Astro Pi with a monitor, keyboard and mouse connected. We need to download some files and change a few configuration settings. Firstly, download the Device Tree overlay that maps the push buttons to corresponding keyboard keys. Open a terminal and enter these commands:
+Once you have all the buttons wired up, start up your Astro Pi with a monitor, keyboard and mouse connected. We need to download some files and change a few configuration settings. Firstly, download the Device Tree overlay that maps the push buttons to the corresponding keyboard keys. Open a terminal and enter these commands:
 
 ```bash
 cd /boot/overlays
@@ -162,7 +162,7 @@ chmod +x pygame_test.py
 
 Waggle the joystick and press all the push buttons. If everything is working, the joystick should give a direction indication and the buttons will show the corresponding letter on the LED matrix. Press `Escape` to exit.
 
-The flight unit uses hardware pull ups on the GPIO pins; however, this test code enables the Raspberry Pi's own internal pull up resistors so your button wiring can be nice and simple. Because of this, you will also need to set the internal pull ups in any Astro Pi code that you write. The block of code below will do this for you; just make sure you have this at the top of each program.
+The flight unit uses hardware pull ups on the GPIO pins; however, this test code enables the Raspberry Pi's own internal pull up resistors so your button wiring can be nice and simple. Because of this, you'll also need to set the internal pull ups in any Astro Pi code that you write. The block of code below will do this for you; just make sure you have this at the top of each program.
 
 ```python
 import RPi.GPIO as GPIO
