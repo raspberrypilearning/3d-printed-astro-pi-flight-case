@@ -14,7 +14,7 @@ If you're planning to build a full Astro Pi flight unit, check that you have all
 
 Part|Quantity|Info|Purpose
 ---|---|---|---
-Raspberry Pi|1|B+ or 2B|Main computer
+Raspberry Pi|1|B+, 2B or 3B|Main computer
 Camera module|1|Normal or Pi NoIR|Main camera
 Sense HAT|1|&nbsp;|Main sensors
 2x20 pin PCB header (GPIO connector)|1|15 mm long pins, 2.54 mm pitch spacing|Goes onto the GPIO pins to hold the Sense HAT at the correct height
