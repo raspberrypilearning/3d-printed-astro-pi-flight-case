@@ -52,6 +52,10 @@ Take an 8 mm M2.5 stand off and put the hex nut or washer onto its thread before
 
 ![](images/install_sense1.png)
 
+WARNING|&nbsp;
+---|---
+![](images/pi3_wifi.jpg)|Attention Pi 3 users. Using a **metal** stand off next to the wireless antenna will degrade it's performance and range. The advice is to either omit this stand off from your build or use a nylon stand off and nylon screw instead.
+
 Remove the GPIO connector that comes with the Sense HAT; wiggle it from side to side and it will come off without too much force. The Sense HAT can then be inserted onto the GPIO connector with the *long* pins (see checklist above). Note that these pins should not protrude through the top of the Sense HAT. If they do, then the height is not correct.
 
 ![](images/install_sense2.png)
